@@ -1,0 +1,23 @@
+{
+  "dataset": "Supplied Kaggle House Prices: Advanced Regression Techniques files (Ames, Iowa)",
+  "rows": 1460,
+  "features": [
+    "OverallQual",
+    "GrLivArea",
+    "GarageCars",
+    "TotalBsmtSF",
+    "FullBath",
+    "YearBuilt",
+    "LotArea",
+    "Neighborhood"
+  ],
+  "target": "SalePrice",
+  "train_rows": 1168,
+  "test_rows": 292,
+  "split": "80/20 random holdout, random_state=42",
+  "selected_model": "Random forest",
+  "selected_model_test_mae_usd": 18529.55,
+  "currency": "USD",
+  "kaggle_test_rows": 1459,
+  "note": "The comparison metrics use a held-out split from train.csv. The Kaggle test.csv has no SalePrice labels, so it is used only to create predictions. The final saved model is refit on all labeled rows for the demo website."
+}
